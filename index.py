@@ -47,3 +47,7 @@ def display_page(pathname):
 # server = app.run_server(debug=False)
 if __name__ == '__main__':
     app.run_server(debug=False)
+
+
+if __name__ == '__main__':
+    app.run_server(host='0.0.0.0',debug=True)
