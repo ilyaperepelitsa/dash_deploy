@@ -168,12 +168,12 @@ first_ten_days['Datetime'] = pd.to_datetime(first_ten_days.loc[:,'Datetime'], in
 first_ten_days = first_ten_days.set_index('Datetime')
 
 
-data_original = pd.read_csv('../data_original_sampled.csv')
+data_original = pd.read_csv('data_original_sampled.csv')
 data_original['Datetime'] = pd.to_datetime(data_original.loc[:,'Datetime'], infer_datetime_format=True)
 data_original = data_original.set_index('Datetime')
 
 
-imputed_10_lags = pd.read_csv('../imputed_10_lags_sampled.csv')
+imputed_10_lags = pd.read_csv('imputed_10_lags_sampled.csv')
 imputed_10_lags['Datetime'] = pd.to_datetime(imputed_10_lags.loc[:,'Datetime'], infer_datetime_format=True)
 imputed_10_lags = imputed_10_lags.set_index('Datetime')
 
