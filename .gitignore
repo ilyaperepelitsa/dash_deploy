@@ -1,5 +1,5 @@
 _gitignore/
-data/
+data_init/
 !dash_app/data/
 data_original.csv
 imputed_2_lags_outliers_aware.csv
