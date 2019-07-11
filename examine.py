@@ -147,3 +147,20 @@ ind = pd.date_range(start=pd.Timestamp(ind, freq = "D"), periods=8)[1:]
 prediction.sum()
 pd.DataFrame({'y_hat' : prediction.values}, index = ind).to_csv("final_model/final_prediction_df.csv")
 # dash_app/data/model/predictions/0_model_est.csv
+#
+# import pkg_resources
+# pkg_resources.get_distribution("pandas").version
+# pkg_resources.get_distribution("numpy").version
+# pkg_resources.get_distribution("dash").version
+# pkg_resources.get_distribution("dash_table").version
+# pkg_resources.get_distribution("plotly").version
+# pkg_resources.get_distribution("numpy").version
+#
+# import os
+# import dash
+# import dash_core_components as dcc
+# import dash_html_components as html
+# from dash.dependencies import Input, Output
+# import dash_table
+#
+# import plotly.graph_objs as go
