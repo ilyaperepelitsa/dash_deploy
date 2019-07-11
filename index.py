@@ -9,6 +9,8 @@ from app import page_style
 nav_style = {"margin" : "1em", 'text-decoration': 'none',
             'fontSize' : '1.5em', 'color' : '#0d669b'}
 
+server=app.server
+
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     dcc.Link('Home', href='/', style=nav_style),
