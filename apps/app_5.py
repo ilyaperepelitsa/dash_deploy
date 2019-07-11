@@ -11,7 +11,7 @@ import os
 import itertools
 # table_1_index = pd.read_csv('data/table_1_index.csv')
 
-final_predictions_df = pd.read_csv('../final_model/final_prediction_df.csv')
+final_predictions_df = pd.read_csv('final_model/final_prediction_df.csv')
 
 dirs = [x[2] for x in os.walk('data/model/predictions')]
 dirs = list(itertools.chain(*dirs))

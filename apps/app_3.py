@@ -28,12 +28,12 @@ data_original['Datetime'] = pd.to_datetime(data_original.loc[:,'Datetime'], infe
 data_original = data_original.set_index('Datetime')
 
 
-imputed_10_lags = pd.read_csv('../imputed_10_lags_sampled.csv')
+imputed_10_lags = pd.read_csv('imputed_10_lags_sampled.csv')
 imputed_10_lags['Datetime'] = pd.to_datetime(imputed_10_lags.loc[:,'Datetime'], infer_datetime_format=True)
 imputed_10_lags = imputed_10_lags.set_index('Datetime')
 
 
-imputed_2_lags_outliers_aware = pd.read_csv('../imputed_2_lags_outliers_aware_sampled.csv')
+imputed_2_lags_outliers_aware = pd.read_csv('imputed_2_lags_outliers_aware_sampled.csv')
 imputed_2_lags_outliers_aware['Datetime'] = pd.to_datetime(imputed_2_lags_outliers_aware.loc[:,'Datetime'], infer_datetime_format=True)
 imputed_2_lags_outliers_aware = imputed_2_lags_outliers_aware.set_index('Datetime')
 
