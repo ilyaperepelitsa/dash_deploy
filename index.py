@@ -43,7 +43,7 @@ def display_page(pathname):
         return home.layout
     else:
         return '404'
-        
-server = app.run_server(debug=False)
+
+# server = app.run_server(debug=False)
 # if __name__ == '__main__':
 #     app.run_server(debug=False)
