@@ -16,6 +16,6 @@ page_style = {'backgroundColor': colors['background'],
                             'marginRight' : 'auto',}
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-app.title = 'LSTM for predicting Power C'
+app.title = 'LSTM for predicting Power Consumption'
 server = app.server
 app.config.suppress_callback_exceptions = True
