@@ -24,7 +24,7 @@ app.layout = html.Div([
 "width": "80%",}
 )
 #
-server 
+server = app.run_server
 
 @app.callback(Output('page-content', 'children'),
               [Input('url', 'pathname')])
