@@ -18,7 +18,7 @@ dirs = [(int(i.split("_")[0]), 'data/model/predictions/' + i) for i in dirs]
 dirs.sort(key = lambda x: x[0])
 dirs = dirs[0:10]
 
-final_predictions_df = pd.read_csv('../final_model/final_prediction_df.csv')
+final_predictions_df = pd.read_csv('final_model/final_prediction_df.csv')
 line_cols = ['#e41a1c','#377eb8','#4daf4a',
             '#984ea3','#ff7f00','#ffff33',
             '#a65628','#f781bf','#999999']
