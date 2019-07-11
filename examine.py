@@ -154,7 +154,7 @@ pd.DataFrame({'y_hat' : prediction.values}, index = ind).to_csv("final_model/fin
 # pkg_resources.get_distribution("dash").version
 # pkg_resources.get_distribution("dash_table").version
 # pkg_resources.get_distribution("plotly").version
-# pkg_resources.get_distribution("numpy").version
+pkg_resources.get_distribution("g").version
 #
 # import os
 # import dash
